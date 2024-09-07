@@ -49,7 +49,6 @@ app.post('/modify', async (req, res) => {
     }
 
     try {
-        // Format changes to a readable string if it's an object, or use as-is if it's a string
         const changesDescription = typeof changes === 'object'
             ? Object.entries(changes).map(([key, value]) => `${key}: ${value}`).join(', ')
             : changes;
