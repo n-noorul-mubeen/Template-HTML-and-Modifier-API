@@ -1,4 +1,6 @@
 # Documentation:
+## Framework Used: `Express JS`
+## For AI: `Gemini API`
 
 ## API Endpoints:
 	
@@ -17,7 +19,7 @@
 	"html": "<html><body><div id='content'>Hello World</div></body></html> \n"
 		}
  
-'/modify' (POST METHOD):
+`/modify` (POST METHOD):
 
 Sample Input:
 
@@ -34,3 +36,6 @@ Output:
 	{ 
  	"html": "<html><body><div id='content'>New Content</div></body></html> \n"
 	}
+
+ ## Testing:
+ To test the functionality of this api, use `postman` or other API Testing platforms.
